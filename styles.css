@@ -1,0 +1,109 @@
+body {
+    background-color: #343e63;;
+}
+
+.main-container {
+    /* width: 500px;
+    height: 500px; */
+    height: 50%; 
+    width: 50%;
+    max-width: 500px;
+    min-width: 400px;
+    margin: 8em auto;
+    background-color: #f8f1e9;
+    border: #ef7b54 6px solid;
+    border-radius: 25px;
+}
+
+.difficulty {
+    /* overflow:hidden; */
+    text-align: center;
+    /* display: none; */
+}
+
+.game-board {
+    display: none;
+}
+
+.input-container {
+    text-align: center;
+}
+/* Webkit is a browser support engine */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn {
+    width: 20em;
+    font-size: 1em;
+    /* display: inline-block; */
+    margin: 2em;
+    padding: 1em;
+    border-radius: 15px;
+    background-color: #83e1d0;
+}
+/* .easy {
+    background-color: #83e1d0;
+} */
+
+.hard {
+    background-color: #ef7b54;
+}
+
+.current-range {
+    white-space: nowrap;
+    /* margin: 0 1em; */
+    padding-left: 1em;
+}
+
+.range-container {
+    display: flex;
+    background: #83e1d0;
+    height: 3em;
+    margin: 0 1em;
+}
+
+.range-title {
+    text-align: center;
+}
+
+.new-game {
+      display: none;
+}
+
+.attempts-taken {
+    /* float: right; */
+}
+
+.last-guess {
+    /* float: right; */
+    font-size: 1em;
+    line-height: 3em;
+}
+
+.progress-container {
+    margin: 1em 1em;
+}
+
+.progress-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .current-range {
+    opacity: 0;
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    from,
+    49.9% {
+      opacity: 0;
+    }
+    50%,
+    to {
+      opacity: 1;
+    }
+  } */

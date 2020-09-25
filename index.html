@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Guess the Number Game</title>
+</head>
+<body>
+    <div class="main-container">
+        
+            <div class="difficulty">
+                <h2>Guess the number between 1-100</h2>
+                <h2>Select difficulty setting</h2>
+                <button class="easy btn">Easy: 10 attempts</button>
+                <br />
+                <button class="hard btn">Hard 5 attempts</button>
+            </div>
+
+            <div class="game-board">
+                <div class="input-container">
+                    <button class="new-game btn">New Game</button>
+                    <h2 class="message">Your Guess: </h2>
+                    <h2 class="could-not-guess"></h2>
+                    <input class="guess" type="number" autofocus/>
+                </div>  
+                <p class="range-title">Current range:</p>
+                <span class="current-range">1 - 100</span>
+                <div class="range-container">
+                    <span class="low-range"></span>
+                    <span class="mid-range"></span>
+                    <span class="high-range"></span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-flex">
+                        <p>Number of previous attempts:</p>
+                        <span class="attempts-taken">0</span>
+                    </div>
+                    <div class="progress-flex">
+                        <p>Your previous guesses:</p>
+                        <span class="last-guess">-</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
